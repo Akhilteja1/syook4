@@ -78,7 +78,7 @@ const io = new Server(server, {
     methods: ["GET", "POST"],
   },
 });
-
+//initialization
 io.on("connection", (socket) => {
   socket.on("first", (message) => {
     setInterval(() => {
